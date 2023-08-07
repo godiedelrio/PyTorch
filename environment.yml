@@ -1,0 +1,13 @@
+name: env-torch
+channels:
+  - pytorch
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+      - torchaudio --index-url https://download.pytorch.org/whl/cpu
