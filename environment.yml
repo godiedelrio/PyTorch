@@ -5,5 +5,7 @@ dependencies:
   - pandas
   - scikit-learn
   - ipykernel
-  - torch
-  - torchvision
+  #- jupyter
+  - pip:
+      - torch
+      - torchvision
