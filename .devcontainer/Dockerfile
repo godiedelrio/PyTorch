@@ -8,4 +8,4 @@ RUN groupadd jovyan \
 
 USER jovyan
 
-RUN conda install numpy pandas matplotlib scikit-learn pytorch torchvision cpuonly -c pytorch
+RUN conda install numpy matplotlib pandas scikit-learn pytorch torchvision cpuonly -c pytorch
